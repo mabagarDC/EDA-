@@ -3,6 +3,23 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Credenciales
+.env
+
+# Entorno virtual
+.venv/
+
+# Datos originales e intermedios (solo se suben el código y los resultados)
+src/data/raw/
+src/data/processed/
+*.pkl
+*.tmp
+
+# Python y Jupyter
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
 # C extensions
 *.so
 
